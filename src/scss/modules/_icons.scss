@@ -1,0 +1,29 @@
+// Icons
+// --------------------------------------------------
+
+%icons {
+  margin: 0;
+  line-height: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: text-top;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  & + * {
+    margin-left: 3px;
+  }
+}
+
+[class^="icon-"],
+[class*="icon-"],
+[class^="icon-sm-"],
+[class*="icon-sm-"],
+[class^="icon-lg-"],
+[class*="icon-lg-"] 	{ @extend %icons; }
+/*
+[class^="icon-"],
+[class*="icon-"]     { background-image: url('../images/icons/sprite.png'); }
+[class^="icon-sm-"],
+[class*="icon-sm-"]  { background-image: url($small-sprite);   }
+[class^="icon-lg-"],
+[class*="icon-lg-"]  { background-image: url($large-sprite);   } */

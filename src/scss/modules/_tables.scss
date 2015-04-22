@@ -1,0 +1,9 @@
+// Tables
+// --------------------------------------------------
+
+// responsive tables
+.table {
+  &.table-md-responsive { @include responsive-table; }
+  &.table-sm-responsive { @include responsive-table; }
+  &.table-xs-responsive { @include responsive-table; }
+}

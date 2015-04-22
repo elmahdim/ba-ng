@@ -1,0 +1,48 @@
+@import "../bootstrap/variables";
+// Variables
+// --------------------------------------------------
+
+// Media
+// Image Sizes: Extra Small, Small, Medium and Large
+$image-size-xs : null !default;
+$image-size-sm : null !default;
+$image-size-md : null !default;
+$image-size-lg : null !default;
+
+// Colors
+$color-brand   : #008aff !default;
+$color-brand-primary  : $color-brand !default;
+$color-brand-secondary: #72a8d5 !default;
+
+$color-global    : #666 !default;
+$color-std       : #999 !default;
+$color-meta      : #ccc !default;
+$color-light-grey: #eee !default;
+$color-dark-grey : darken($color-global, 20%) !default; // #333
+
+$bg-color-twitter   : #2fabe1 !default;
+$bg-color-facebook  : #3c5b9b !default;
+$bg-color-googleplus: #f63e28 !default;
+
+// Font families
+$font-family-default : null !default;
+
+// Font weight
+$font-weight-thin   : 100 !default;
+$font-weight-light  : $font-weight-thin  + 200 !default;     //~300
+$font-weight-normal : $font-weight-light + 100 !default;     //~400
+$font-weight-regular: $font-weight-normal !default;
+$font-weight-medium : $font-weight-normal + 100 !default;   //~500
+$font-weight-bold   : $font-weight-medium + 200 !default;   //~700
+$font-weight-ultra-bold : $font-weight-bold + 200 !default; //~900
+
+$font-size-default: 14px !default;
+$font-size-sm     : $font-size-default - 1 !default; //~13px
+$font-size-xs     : $font-size-sm - 2 !default;
+
+// Sizes
+$col-gutter   : 15px !default;
+
+// Responsive
+$xs-screen: $screen-sm - 1 !default; //~767px
+$xs-screen-min: $screen-sm-min - 1 !default; //~767px

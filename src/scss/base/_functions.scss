@@ -1,0 +1,19 @@
+// @functions
+// --------------------------------------------------
+
+// Calculation 
+@function calc-addPixels($some-number, $another-number){
+  @return $some-number + $another-number
+}
+
+@function calc-subPixels($some-number, $another-number){
+  @return $some-number - $another-number
+}
+
+@function calc-divPixels($some-number, $another-number){
+  @return $some-number / $another-number
+}
+
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}

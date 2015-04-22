@@ -1,0 +1,12 @@
+{
+  "name": "ba-ng",
+  "description": "A starter AngularJS repository for getting started with AngularJS Applications.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/elmahdim/ba-ng",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "*",
+    "angular-route": "*",
+    "angular-mocks": "*"
+  }
+}
